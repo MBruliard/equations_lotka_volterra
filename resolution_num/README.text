@@ -1,0 +1,17 @@
+ #######################APPROXIMATION NUMERIQUE#################################
+ 
+ 
+ /!\ Le programme principal est ApproxLoktaVolterra.exe 
+ 
+ 
+ 
+ une fonction main qui prend en argument un fichier texte donneesLV.txt dans lequel sont notés les valeurs des constantes dans l'ordre suivant: 
+ @nbr_pas pour le nombre de segments sur l'intervalle [0; Tmax]
+ @Tmax le temps maximal d'étude
+ @alpha, beta, sigma et gamma les constantes associées à notre équation de Lotka-Volterra
+ @z0 = (x0, y0) la condition de Cauchy.
+ 
+ 
+ des fichiers euler_exp et runge_kutta4 qui sont les méthodes d'approximation numériques
+ 
+ systèmeLV qui contient la défintiion de la fonction de Lotka Volterra. 
